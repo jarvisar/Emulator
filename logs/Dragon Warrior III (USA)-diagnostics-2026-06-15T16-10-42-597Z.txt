@@ -1,0 +1,843 @@
+8-BIT CONTROL DECK DIAGNOSTIC LOG
+Generated: 2026-06-15T16:10:42.584Z
+Format version: 1
+ROM bytes included: No
+
+=== CARTRIDGE ===
+Name: Dragon Warrior III (USA)
+Library file: Dragon Warrior III (USA).zip
+Mapper: 1
+Submapper: 0
+PRG ROM: 524288 bytes
+CHR: 8192 bytes (RAM)
+PRG RAM: 8192 bytes
+Battery: true
+Mirroring: vertical
+PRG CRC32: A86A5318
+CHR CRC32: D8F49994
+
+=== RUNTIME ===
+State: running
+Displayed FPS: 60
+Display mode: pixel
+Muted: false
+Emulated frames: 102
+CPU cycles: 3035365
+Recorder uptime: 1650 ms
+
+=== HOST / AUDIO ===
+User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+Viewport: 2560x1271
+Device pixel ratio: 1
+Audio context: running
+Audio sample rate: 44100
+Buffered audio: 3111
+
+=== CPU ===
+PC: $C347
+A: $00
+X: $00
+Y: $02
+SP: $F2
+P: $27 (nvUbdIZC)
+Last instruction: $C344 $CD CMP
+NMI pending: false
+IRQ line: true
+
+=== PPU ===
+Frame: 102
+Scanline: 241
+Dot: 10
+CTRL: $08
+MASK: $00
+STATUS: $80
+VRAM address: $0000
+Temp address: $0000
+Fine X: 0
+OAM address: $00
+
+=== APU ===
+Frame cycle: 7613
+Frame IRQ: true
+DMC IRQ: false
+Pulse 1 length: 0
+Pulse 2 length: 0
+Triangle length: 0
+Noise length: 0
+DMC bytes remaining: 0
+
+=== MAPPER STATE ===
+irqPending=false
+shift=16
+control=14
+chrBank0=16
+chrBank1=0
+prgBank=14
+
+=== RECENT EVENTS ===
++      0.0ms  SYSTEM   Reset
++      0.0ms  SYSTEM   Cartridge loaded
+Dragon Warrior III (USA); mapper 1
++   1639.1ms  UI       Diagnostic log requested
+
+=== RECENT FRAME TIMING ===
+FRAME     CPU CYCLES   HOST MS   INSTRUCTIONS   AUDIO SAMPLES
+     1         27509     1.900           7861            677
+     2         29782     1.500           8510            734
+     3         29779     2.400           8536            734
+     4         29781     1.600           8509            734
+     5         29782     1.700           8509            734
+     6         29781     1.500           8509            733
+     7         29778     1.900           8508            734
+     8         29782     1.600           8509            734
+     9         29781     1.600           8509            734
+    10         29782     1.800           8509            734
+    11         29778     1.700           8508            733
+    12         29781     1.600           8509            734
+    13         29782     1.600           8509            734
+    14         29781     1.600           8509            734
+    15         29782     1.900           8509            734
+    16         29778     1.900           8508            733
+    17         29781     1.500           8509            734
+    18         29782     1.700           8509            734
+    19         29778     1.700           8508            734
+    20         29781     1.800           8509            733
+    21         29782     1.500           8509            734
+    22         29781     1.600           8509            734
+    23         29782     1.500           8509            734
+    24         29778     1.800           8508            734
+    25         29781     1.600           8509            733
+    26         29782     2.000           8509            734
+    27         29781     2.100           8509            734
+    28         29778     1.900           8508            734
+    29         29782     1.800           8509            734
+    30         29781     1.900           8509            733
+    31         29782     2.000           8509            734
+    32         29778     2.200           8508            734
+    33         29781     1.900           8509            734
+    34         29782     2.100           8509            734
+    35         29781     2.200           8509            733
+    36         29782     1.900           8509            734
+    37         29778     2.000           8508            734
+    38         29781     1.700           8509            734
+    39         29782     1.900           8509            734
+    40         29778     2.100           8508            733
+    41         29781     1.600           8509            734
+    42         29782     1.600           8509            734
+    43         29781     1.500           8509            734
+    44         29782     2.000           8509            734
+    45         29778     1.500           8508            733
+    46         29781     1.900           8509            734
+    47         29782     2.000           8509            734
+    48         29781     1.600           8509            734
+    49         29778     1.600           8508            733
+    50         29782     2.000           8509            734
+    51         29781     2.000           8509            734
+    52         29782     1.900           8509            734
+    53         29778     2.000           8508            734
+    54         29781     1.700           8509            733
+    55         29782     2.000           8509            734
+    56         29781     1.700           8509            734
+    57         29782     1.900           8509            734
+    58         29778     2.800           8508            734
+    59         29781     1.700           8509            733
+    60         29782     2.100           8509            734
+    61         29778     1.500           8508            734
+    62         29781     1.400           8509            734
+    63         29782     1.600           8509            734
+    64         29781     1.800           8509            733
+    65         29782     1.500           8509            734
+    66         29778     1.500           8508            734
+    67         29781     1.900           8509            734
+    68         29782     1.800           8509            734
+    69         29781     1.600           8509            733
+    70         29778     2.000           8508            734
+    71         29782     1.800           8509            734
+    72         29781     1.800           8509            734
+    73         29782     1.500           8509            734
+    74         29778     1.700           8508            733
+    75         29781     2.000           8509            734
+    76         29782     1.800           8509            734
+    77         29781     1.500           8509            734
+    78         29782     1.600           8509            734
+    79         29778     1.700           8508            733
+    80         29781     2.000           8509            734
+    81         29782     1.900           8509            734
+    82         29778     1.800           8508            734
+    83         29781     1.800           8509            734
+    84         29782     2.600           8509            733
+    85         29781     1.900           8509            734
+    86         29782     1.800           8509            734
+    87         29778     1.800           8508            734
+    88         29781     1.700           8509            734
+    89         29782     1.800           8509            733
+    90         29781     1.800           8509            734
+    91         29778     2.000           8508            734
+    92         29782     1.600           8509            734
+    93         29781     2.000           8509            734
+    94         29782     1.700           8509            733
+    95         29778     1.600           8508            734
+    96         29781     1.900           8509            734
+    97         29782     1.500           8509            734
+    98         29781     1.900           8509            734
+    99         29782     1.800           8509            733
+   100         29778     1.700           8508            734
+   101         29781     2.000           8509            734
+   102         29782     1.800           8509            734
+
+=== SAMPLED CPU EXECUTION ===
+CPU CYCLE     PC     OP  INSTRUCTION  A   X   Y   SP  P         PPU       IRQ
+    1341452  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,194  1
+    1345036  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 34  1
+    1348620  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,215  1
+    1352204  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 55  1
+    1355788  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,236  1
+    1359372  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 76  1
+    1362956  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,257  1
+    1366540  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 97  1
+    1367650  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 17  1
+    1371234  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,198  1
+    1374818  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 38  1
+    1378402  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,219  1
+    1381986  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 59  1
+    1385570  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,240  1
+    1389154  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 80  1
+    1392738  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,261  1
+    1396322  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,101  1
+    1397431  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 18  1
+    1401015  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,199  1
+    1404599  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 39  1
+    1408183  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,220  1
+    1411767  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 60  1
+    1415351  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,241  1
+    1418935  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 81  1
+    1422519  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,262  1
+    1426103  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,102  1
+    1427213  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 22  1
+    1430797  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,203  1
+    1434381  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 43  1
+    1437965  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,224  1
+    1441549  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 64  1
+    1445133  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,245  1
+    1448717  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 85  1
+    1452301  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,266  1
+    1455885  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,106  1
+    1456991  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 14  1
+    1460575  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,195  1
+    1464159  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 35  1
+    1467743  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,216  1
+    1471327  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 56  1
+    1474911  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,237  1
+    1478495  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 77  1
+    1482079  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,258  1
+    1485663  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231, 98  1
+    1486772  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 15  1
+    1490356  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,196  1
+    1493940  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 36  1
+    1497524  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,217  1
+    1501108  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 57  1
+    1504692  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,238  1
+    1508276  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 78  1
+    1511860  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,259  1
+    1515444  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 99  1
+    1516554  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 19  1
+    1520138  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,200  1
+    1523722  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 40  1
+    1527306  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,221  1
+    1530890  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 61  1
+    1534474  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,242  1
+    1538058  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 82  1
+    1541642  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,263  1
+    1545226  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,103  1
+    1546335  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 20  1
+    1549919  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,201  1
+    1553503  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 41  1
+    1557087  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,222  1
+    1560671  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 62  1
+    1564255  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,243  1
+    1567839  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 83  1
+    1571423  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,264  1
+    1575007  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,104  1
+    1576113  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 12  1
+    1579697  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,193  1
+    1583281  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 33  1
+    1586865  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,214  1
+    1590449  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 54  1
+    1594033  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,235  1
+    1597617  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 75  1
+    1601201  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,256  1
+    1604785  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 96  1
+    1605895  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 16  1
+    1609479  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,197  1
+    1613063  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 37  1
+    1616647  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,218  1
+    1620231  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 58  1
+    1623815  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,239  1
+    1627399  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 79  1
+    1630983  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,260  1
+    1634567  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,100  1
+    1635676  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 17  1
+    1639260  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,198  1
+    1642844  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 38  1
+    1646428  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,219  1
+    1650012  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 59  1
+    1653596  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,240  1
+    1657180  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 80  1
+    1660764  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,261  1
+    1664348  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,101  1
+    1665458  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 21  1
+    1669042  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,202  1
+    1672626  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 42  1
+    1676210  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,223  1
+    1679794  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 63  1
+    1683378  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,244  1
+    1686962  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 84  1
+    1690546  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,265  1
+    1694130  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,105  1
+    1695239  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 22  1
+    1698823  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,203  1
+    1702407  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 43  1
+    1705991  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,224  1
+    1709575  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 64  1
+    1713159  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,245  1
+    1716743  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 85  1
+    1720327  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,266  1
+    1723911  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,106  1
+    1725017  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 14  1
+    1728601  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,195  1
+    1732185  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 35  1
+    1735769  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,216  1
+    1739353  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 56  1
+    1742937  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,237  1
+    1746521  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 77  1
+    1750105  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,258  1
+    1753689  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 98  1
+    1754799  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 18  1
+    1758383  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,199  1
+    1761967  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 39  1
+    1765551  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,220  1
+    1769135  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 60  1
+    1772719  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,241  1
+    1776303  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 81  1
+    1779887  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,262  1
+    1783471  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,102  1
+    1784580  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 19  1
+    1788164  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,200  1
+    1791748  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 40  1
+    1795332  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,221  1
+    1798916  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 61  1
+    1802500  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,242  1
+    1806084  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 82  1
+    1809668  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,263  1
+    1813252  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,103  1
+    1814358  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 11  1
+    1817942  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,192  1
+    1821526  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 32  1
+    1825110  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,213  1
+    1828694  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 53  1
+    1832278  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,234  1
+    1835862  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 74  1
+    1839446  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,255  1
+    1843030  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 95  1
+    1844140  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 15  1
+    1847724  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,196  1
+    1851308  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 36  1
+    1854892  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,217  1
+    1858476  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 57  1
+    1862060  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,238  1
+    1865644  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 78  1
+    1869228  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,259  1
+    1872812  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231, 99  1
+    1873921  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 16  1
+    1877505  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,197  1
+    1881089  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 37  1
+    1884673  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,218  1
+    1888257  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 58  1
+    1891841  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,239  1
+    1895425  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 79  1
+    1899009  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,260  1
+    1902593  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,100  1
+    1903703  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 20  1
+    1907287  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,201  1
+    1910871  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 41  1
+    1914455  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,222  1
+    1918039  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 62  1
+    1921623  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,243  1
+    1925207  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 83  1
+    1928791  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,264  1
+    1932375  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,104  1
+    1933484  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 21  1
+    1937068  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,202  1
+    1940652  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 42  1
+    1944236  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,223  1
+    1947820  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 63  1
+    1951404  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,244  1
+    1954988  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 84  1
+    1958572  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,265  1
+    1962156  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,105  1
+    1963262  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 13  1
+    1966846  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,194  1
+    1970430  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 34  1
+    1974014  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,215  1
+    1977598  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 55  1
+    1981182  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,236  1
+    1984766  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 76  1
+    1988350  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,257  1
+    1991934  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 97  1
+    1993044  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 17  1
+    1996628  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,198  1
+    2000212  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 38  1
+    2003796  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,219  1
+    2007380  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 59  1
+    2010964  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,240  1
+    2014548  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 80  1
+    2018132  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,261  1
+    2021716  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,101  1
+    2022825  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 18  1
+    2026409  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,199  1
+    2029993  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 39  1
+    2033577  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,220  1
+    2037161  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 60  1
+    2040745  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,241  1
+    2044329  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 81  1
+    2047913  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,262  1
+    2051497  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,102  1
+    2052607  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 22  1
+    2056191  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,203  1
+    2059775  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 43  1
+    2063359  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,224  1
+    2066943  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 64  1
+    2070527  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,245  1
+    2074111  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 85  1
+    2077695  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,266  1
+    2081279  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,106  1
+    2082385  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 14  1
+    2085969  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,195  1
+    2089553  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 35  1
+    2093137  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,216  1
+    2096721  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 56  1
+    2100305  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,237  1
+    2103889  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 77  1
+    2107473  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,258  1
+    2111057  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231, 98  1
+    2112166  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 15  1
+    2115750  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,196  1
+    2119334  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 36  1
+    2122918  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,217  1
+    2126502  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 57  1
+    2130086  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,238  1
+    2133670  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 78  1
+    2137254  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,259  1
+    2140838  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 99  1
+    2141948  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 19  1
+    2145532  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,200  1
+    2149116  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 40  1
+    2152700  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,221  1
+    2156284  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 61  1
+    2159868  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,242  1
+    2163452  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 82  1
+    2167036  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,263  1
+    2170620  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,103  1
+    2171729  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 20  1
+    2175313  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,201  1
+    2178897  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 41  1
+    2182481  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,222  1
+    2186065  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 62  1
+    2189649  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,243  1
+    2193233  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 83  1
+    2196817  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,264  1
+    2200401  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,104  1
+    2201507  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 12  1
+    2205091  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,193  1
+    2208675  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 33  1
+    2212259  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,214  1
+    2215843  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 54  1
+    2219427  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,235  1
+    2223011  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 75  1
+    2226595  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,256  1
+    2230179  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 96  1
+    2231289  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 16  1
+    2234873  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,197  1
+    2238457  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 37  1
+    2242041  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,218  1
+    2245625  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 58  1
+    2249209  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,239  1
+    2252793  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 79  1
+    2256377  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,260  1
+    2259961  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,100  1
+    2261070  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 17  1
+    2264654  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,198  1
+    2268238  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 38  1
+    2271822  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,219  1
+    2275406  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 59  1
+    2278990  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,240  1
+    2282574  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 80  1
+    2286158  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,261  1
+    2289742  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,101  1
+    2290852  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 21  1
+    2294436  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,202  1
+    2298020  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 42  1
+    2301604  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,223  1
+    2305188  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 63  1
+    2308772  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,244  1
+    2312356  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 84  1
+    2315940  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,265  1
+    2319524  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,105  1
+    2320633  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 22  1
+    2324217  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,203  1
+    2327801  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 43  1
+    2331385  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,224  1
+    2334969  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 64  1
+    2338553  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,245  1
+    2342137  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 85  1
+    2345721  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,266  1
+    2349305  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,106  1
+    2350411  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 14  1
+    2353995  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,195  1
+    2357579  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 35  1
+    2361163  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,216  1
+    2364747  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 56  1
+    2368331  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,237  1
+    2371915  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 77  1
+    2375499  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,258  1
+    2379083  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 98  1
+    2380193  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 18  1
+    2383777  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,199  1
+    2387361  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 39  1
+    2390945  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,220  1
+    2394529  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 60  1
+    2398113  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,241  1
+    2401697  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 81  1
+    2405281  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,262  1
+    2408865  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,102  1
+    2409974  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 19  1
+    2413558  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,200  1
+    2417142  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 40  1
+    2420726  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,221  1
+    2424310  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 61  1
+    2427894  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,242  1
+    2431478  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 82  1
+    2435062  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,263  1
+    2438646  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,103  1
+    2439752  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 11  1
+    2443336  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,192  1
+    2446920  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 32  1
+    2450504  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,213  1
+    2454088  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 53  1
+    2457672  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,234  1
+    2461256  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 74  1
+    2464840  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,255  1
+    2468424  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 95  1
+    2469534  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 15  1
+    2473118  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,196  1
+    2476702  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 36  1
+    2480286  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,217  1
+    2483870  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 57  1
+    2487454  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,238  1
+    2491038  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 78  1
+    2494622  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,259  1
+    2498206  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231, 99  1
+    2499315  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 16  1
+    2502899  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,197  1
+    2506483  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 37  1
+    2510067  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,218  1
+    2513651  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 58  1
+    2517235  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,239  1
+    2520819  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 79  1
+    2524403  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,260  1
+    2527987  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,100  1
+    2529097  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 20  1
+    2532681  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,201  1
+    2536265  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 41  1
+    2539849  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,222  1
+    2543433  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 62  1
+    2547017  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,243  1
+    2550601  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 83  1
+    2554185  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,264  1
+    2557769  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,104  1
+    2558878  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 21  1
+    2562462  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,202  1
+    2566046  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 42  1
+    2569630  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,223  1
+    2573214  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 63  1
+    2576798  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,244  1
+    2580382  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 84  1
+    2583966  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,265  1
+    2587550  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,105  1
+    2588656  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 13  1
+    2592240  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,194  1
+    2595824  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 34  1
+    2599408  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,215  1
+    2602992  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 55  1
+    2606576  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,236  1
+    2610160  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 76  1
+    2613744  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,257  1
+    2617328  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 97  1
+    2618438  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 17  1
+    2622022  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,198  1
+    2625606  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 38  1
+    2629190  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,219  1
+    2632774  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 59  1
+    2636358  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,240  1
+    2639942  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 80  1
+    2643526  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,261  1
+    2647110  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,101  1
+    2648219  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 18  1
+    2651803  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,199  1
+    2655387  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 39  1
+    2658971  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,220  1
+    2662555  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 60  1
+    2666139  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,241  1
+    2669723  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 81  1
+    2673307  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,262  1
+    2676891  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,102  1
+    2678001  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 22  1
+    2681585  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,203  1
+    2685169  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 43  1
+    2688753  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,224  1
+    2692337  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 64  1
+    2695921  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,245  1
+    2699505  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 85  1
+    2703089  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,266  1
+    2706673  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,106  1
+    2707779  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 14  1
+    2711363  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,195  1
+    2714947  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 35  1
+    2718531  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,216  1
+    2722115  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 56  1
+    2725699  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,237  1
+    2729283  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 77  1
+    2732867  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,258  1
+    2736451  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231, 98  1
+    2737560  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 15  1
+    2741144  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,196  1
+    2744728  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 36  1
+    2748312  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,217  1
+    2751896  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 57  1
+    2755480  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,238  1
+    2759064  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 78  1
+    2762648  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,259  1
+    2766232  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 99  1
+    2767342  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 19  1
+    2770926  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,200  1
+    2774510  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 40  1
+    2778094  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,221  1
+    2781678  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 61  1
+    2785262  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,242  1
+    2788846  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 82  1
+    2792430  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,263  1
+    2796014  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,103  1
+    2797123  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 20  1
+    2800707  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,201  1
+    2804291  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 41  1
+    2807875  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,222  1
+    2811459  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 62  1
+    2815043  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,243  1
+    2818627  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 83  1
+    2822211  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,264  1
+    2825795  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,104  1
+    2826901  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 12  1
+    2830485  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,193  1
+    2834069  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 33  1
+    2837653  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,214  1
+    2841237  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 54  1
+    2844821  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,235  1
+    2848405  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 75  1
+    2851989  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,256  1
+    2855573  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 96  1
+    2856683  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 16  1
+    2860267  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,197  1
+    2863851  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 37  1
+    2867435  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,218  1
+    2871019  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 58  1
+    2874603  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,239  1
+    2878187  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 79  1
+    2881771  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,260  1
+    2885355  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,100  1
+    2886464  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 17  1
+    2890048  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,198  1
+    2893632  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 38  1
+    2897216  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,219  1
+    2900800  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 59  1
+    2904384  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,240  1
+    2907968  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 80  1
+    2911552  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,261  1
+    2915136  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,101  1
+    2916246  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 21  1
+    2919830  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,202  1
+    2923414  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 42  1
+    2926998  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,223  1
+    2930582  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 63  1
+    2934166  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,244  1
+    2937750  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 84  1
+    2941334  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,265  1
+    2944918  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,105  1
+    2946027  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 22  1
+    2949611  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,203  1
+    2953195  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 43  1
+    2956779  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,224  1
+    2960363  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 64  1
+    2963947  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,245  1
+    2967531  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 85  1
+    2971115  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,266  1
+    2974699  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231,106  1
+    2975805  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  241, 14  1
+    2979389  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   10,195  1
+    2982973  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   42, 35  1
+    2986557  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC   73,216  1
+    2990141  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  105, 56  1
+    2993725  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  136,237  1
+    2997309  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  168, 77  1
+    3000893  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  199,258  1
+    3004477  $C347  $F0  BEQ         00  00  02  F2  nvUbdIZC  231, 98  1
+    3005587  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  241, 18  1
+    3009171  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   10,199  1
+    3012755  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   42, 39  1
+    3016339  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC   73,220  1
+    3019923  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  105, 60  1
+    3023507  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  136,241  1
+    3027091  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  168, 81  1
+    3030675  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  199,262  1
+    3034259  $C344  $CD  CMP         00  00  02  F2  nvUbdIZC  231,102  1
+
+=== CPU RAM (2 KB) ===
+$0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0020  00 4C DB AB 01 00 00 00 02 00 00 00 00 00 00 00
+$0030  00 00 00 00 00 04 00 00 00 00 00 00 00 00 00 00
+$0040  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0110  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0120  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0130  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0150  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0160  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0170  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0180  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0190  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01F0  00 00 00 F3 AB F5 E8 80 01 39 80 BA C4 01 28 E8
+$0200  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0210  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0220  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0230  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0240  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0250  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0260  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0270  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0280  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0290  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0300  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0310  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0320  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0330  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0340  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0350  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0360  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0370  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0380  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0390  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0400  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0410  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0420  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0430  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0440  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0450  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0460  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0470  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0480  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0490  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0500  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0510  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0520  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0530  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0540  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0550  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0560  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0570  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0580  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0590  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0600  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0610  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0620  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0630  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0640  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0650  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0660  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0670  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0680  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0690  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06C0  00 00 00 00 00 00 00 0E 10 00 00 00 00 00 00 00
+$06D0  00 00 00 00 00 1E 00 00 00 00 00 00 00 00 00 00
+$06E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0700  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0710  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0720  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0730  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0740  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0750  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0760  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0770  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0780  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0790  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$07A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$07B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$07C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$07D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$07E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$07F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+=== PPU PALETTE ===
+$3F00  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$3F10  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+=== CHECKSUMS ===
+CPU RAM CRC32: C5FA8D1A
+PRG RAM CRC32: D8F49994
+Nametable CRC32: C71C0011
+OAM CRC32: 0D968558
+
+END OF LOG

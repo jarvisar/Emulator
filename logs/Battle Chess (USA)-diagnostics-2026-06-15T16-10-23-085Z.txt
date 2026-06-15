@@ -1,0 +1,921 @@
+8-BIT CONTROL DECK DIAGNOSTIC LOG
+Generated: 2026-06-15T16:10:23.074Z
+Format version: 1
+ROM bytes included: No
+
+=== CARTRIDGE ===
+Name: Battle Chess (USA)
+Library file: Battle Chess (USA).zip
+Mapper: 1
+Submapper: 0
+PRG ROM: 262144 bytes
+CHR: 8192 bytes (RAM)
+PRG RAM: 8192 bytes
+Battery: false
+Mirroring: vertical
+PRG CRC32: 2C2DDFB4
+CHR CRC32: D8F49994
+
+=== RUNTIME ===
+State: running
+Displayed FPS: 60
+Display mode: pixel
+Muted: false
+Emulated frames: 195
+CPU cycles: 5804935
+Recorder uptime: 3192 ms
+
+=== HOST / AUDIO ===
+User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+Viewport: 2560x1271
+Device pixel ratio: 1
+Audio context: running
+Audio sample rate: 44100
+Buffered audio: 3769
+
+=== CPU ===
+PC: $C141
+A: $00
+X: $0F
+Y: $FF
+SP: $F9
+P: $27 (nvUbdIZC)
+Last instruction: $C13E $AD LDA
+NMI pending: true
+IRQ line: true
+
+=== PPU ===
+Frame: 195
+Scanline: 241
+Dot: 4
+CTRL: $B0
+MASK: $18
+STATUS: $80
+VRAM address: $0802
+Temp address: $0000
+Fine X: 0
+OAM address: $00
+
+=== APU ===
+Frame cycle: 2993
+Frame IRQ: true
+DMC IRQ: false
+Pulse 1 length: 0
+Pulse 2 length: 0
+Triangle length: 0
+Noise length: 0
+DMC bytes remaining: 0
+
+=== MAPPER STATE ===
+irqPending=false
+shift=16
+control=14
+chrBank0=0
+chrBank1=0
+prgBank=0
+
+=== RECENT EVENTS ===
++      0.1ms  SYSTEM   Reset
++      0.1ms  SYSTEM   Cartridge loaded
+Battle Chess (USA); mapper 1
++   3183.7ms  UI       Diagnostic log requested
+
+=== RECENT FRAME TIMING ===
+FRAME     CPU CYCLES   HOST MS   INSTRUCTIONS   AUDIO SAMPLES
+    16         29780     2.500           8508            733
+    17         29780     2.400           8406            734
+    18         29781     2.500           8407            734
+    19         29780     2.600           8409            734
+    20         29780     2.600           8409            733
+    21         29780     2.600           8409            734
+    22         29780     2.700           8409            734
+    23         29780     2.400           8409            734
+    24         29780     2.500           8409            734
+    25         29783     2.600           8410            733
+    26         29778     2.300           8408            734
+    27         29781     2.600           8409            734
+    28         29780     2.400           8409            734
+    29         29783     2.600           8410            734
+    30         29778     2.700           8408            733
+    31         29781     2.700           8409            734
+    32         29780     2.400           8409            734
+    33         29783     2.700           8410            734
+    34         29778     2.600           8408            733
+    35         29781     2.300           8409            734
+    36         29780     2.300           8409            734
+    37         29783     2.500           8410            734
+    38         29778     2.300           8408            734
+    39         29781     2.700           8409            733
+    40         29780     2.400           8409            734
+    41         29783     2.400           8410            734
+    42         29778     2.500           8408            734
+    43         29781     2.400           8409            734
+    44         29780     2.600           8409            733
+    45         29783     2.400           8410            734
+    46         29778     2.500           8408            734
+    47         29781     2.600           8409            734
+    48         29780     2.600           8409            734
+    49         29783     2.500           8410            733
+    50         29778     2.600           8408            734
+    51         29781     2.400           8409            734
+    52         29780     2.600           8409            734
+    53         29783     2.700           8410            734
+    54         29778     2.400           8408            733
+    55         29781     2.300           8409            734
+    56         29780     2.400           8409            734
+    57         29783     2.300           8410            734
+    58         29778     2.300           8408            733
+    59         29781     2.700           8409            734
+    60         29780     4.000           8409            734
+    61         29783     3.800           8410            734
+    62         29778     2.600           8408            734
+    63         29781     2.800           8409            733
+    64         29780     2.400           8409            734
+    65         29783     2.400           8410            734
+    66         29778     2.500           8408            734
+    67         29781     2.400           8409            734
+    68         29780     2.400           8409            733
+    69         29783     2.500           8410            734
+    70         29778     2.300           8408            734
+    71         29781     2.300           8409            734
+    72         29780     2.500           8409            734
+    73         29783     2.400           8410            733
+    74         29778     2.400           8408            734
+    75         29781     2.400           8409            734
+    76         29780     2.200           8409            734
+    77         29783     2.400           8410            734
+    78         29778     2.400           8408            733
+    79         29781     2.500           8409            734
+    80         29780     2.400           8409            734
+    81         29783     2.400           8410            734
+    82         29778     2.400           8408            733
+    83         29781     2.400           8409            734
+    84         29780     2.400           8409            734
+    85         29783     2.500           8410            734
+    86         29778     2.500           8408            734
+    87         29781     2.400           8409            733
+    88         29780     2.500           8409            734
+    89         29783     2.600           8410            734
+    90         29778     2.400           8408            734
+    91         29781     2.500           8409            734
+    92         29780     2.400           8409            733
+    93         29783     2.400           8410            734
+    94         29778     2.600           8408            734
+    95         29781     2.400           8409            734
+    96         29780     2.700           8409            734
+    97         29783     2.600           8410            733
+    98         29778     2.300           8408            734
+    99         29781     4.100           8409            734
+   100         29780     2.500           8409            734
+   101         29783     2.600           8410            734
+   102         29778     2.400           8408            733
+   103         29781     2.400           8409            734
+   104         29780     2.500           8409            734
+   105         29783     2.600           8410            734
+   106         29778     2.300           8408            733
+   107         29781     2.400           8409            734
+   108         29780     2.500           8409            734
+   109         29783     2.500           8410            734
+   110         29778     2.500           8408            734
+   111         29781     2.400           8409            733
+   112         29780     2.700           8409            734
+   113         29783     2.700           8410            734
+   114         29778     2.900           8408            734
+   115         29781     2.400           8409            734
+   116         29780     2.400           8409            733
+   117         29783     2.400           8410            734
+   118         29778     2.500           8408            734
+   119         29781     2.600           8409            734
+   120         29780     2.400           8409            734
+   121         29783     2.400           8410            733
+   122         29778     2.400           8408            734
+   123         29781     2.400           8409            734
+   124         29780     2.400           8409            734
+   125         29783     2.400           8410            734
+   126         29778     2.600           8408            733
+   127         29781     2.400           8409            734
+   128         29780     2.400           8409            734
+   129         29783     2.300           8410            734
+   130         29778     2.700           8408            733
+   131         29781     2.700           8409            734
+   132         29780     2.400           8409            734
+   133         29783     2.400           8410            734
+   134         29778     2.500           8408            734
+   135         29781     2.600           8409            733
+   136         29780     2.500           8409            734
+   137         29783     2.500           8410            734
+   138         29778     2.500           8408            734
+   139         29781     2.700           8409            734
+   140         29780     2.400           8409            733
+   141         29783     2.800           8410            734
+   142         29778     2.500           8408            734
+   143         29781     2.400           8409            734
+   144         29780     2.700           8409            734
+   145         29783     2.400           8410            733
+   146         29778     2.700           8408            734
+   147         29781     2.600           8409            734
+   148         29780     2.300           8409            734
+   149         29783     2.500           8410            734
+   150         29778     2.400           8408            733
+   151         29781     2.500           8409            734
+   152         29780     2.600           8409            734
+   153         29783     2.300           8410            734
+   154         29778     2.700           8408            733
+   155         29781     2.400           8409            734
+   156         29780     2.400           8409            734
+   157         29783     2.400           8410            734
+   158         29778     2.400           8408            734
+   159         29781     2.500           8409            733
+   160         29780     2.400           8409            734
+   161         29783     2.400           8410            734
+   162         29778     2.500           8408            734
+   163         29781     2.300           8409            734
+   164         29780     2.700           8409            733
+   165         29783     2.500           8410            734
+   166         29778     2.600           8408            734
+   167         29781     2.600           8409            734
+   168         29780     2.700           8409            734
+   169         29783     2.800           8410            733
+   170         29778     2.400           8408            734
+   171         29781     2.400           8409            734
+   172         29780     2.500           8409            734
+   173         29783     2.600           8410            734
+   174         29778     2.300           8408            733
+   175         29781     2.700           8409            734
+   176         29780     2.500           8409            734
+   177         29783     2.500           8410            734
+   178         29778     2.300           8408            733
+   179         29781     2.700           8409            734
+   180         29780     2.300           8409            734
+   181         29783     2.600           8410            734
+   182         29778     2.600           8408            734
+   183         29781     2.600           8409            733
+   184         29780     2.600           8409            734
+   185         29783     2.400           8410            734
+   186         29778     2.400           8408            734
+   187         29781     2.600           8409            734
+   188         29780     2.600           8409            733
+   189         29783     2.800           8410            734
+   190         29778     2.300           8408            734
+   191         29781     2.700           8409            734
+   192         29780     2.900           8409            734
+   193         29783     2.400           8410            733
+   194         29778     2.400           8408            734
+   195         29781     2.600           8409            734
+
+=== SAMPLED CPU EXECUTION ===
+CPU CYCLE     PC     OP  INSTRUCTION  A   X   Y   SP  P         PPU       IRQ
+    4111372  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4114967  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4118551  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4122135  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4125719  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4129303  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4132887  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4136471  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4137234  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4141152  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4144747  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4148331  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4151915  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4155499  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4159083  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4162667  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4166251  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4167014  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4170932  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4174527  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4178111  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4181695  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4185279  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4188863  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4192447  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4196031  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4196797  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4200716  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4204311  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4207895  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4211479  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4215063  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4218647  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4222231  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4225815  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4226575  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4230494  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4234089  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4237673  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4241257  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4244841  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4248425  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4252009  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4255593  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4256356  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4260274  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4263869  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4267453  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4271037  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4274621  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4278205  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4281789  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4285373  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4286136  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4290054  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4293649  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4297233  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4300817  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4304401  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4307985  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4311569  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4315153  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4315919  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4319838  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4323433  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4327017  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4330601  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4334185  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4337769  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4341353  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4344937  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4345697  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4349616  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4353211  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4356795  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4360379  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4363963  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4367547  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4371131  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4374715  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4375478  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4379396  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4382991  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4386575  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4390159  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4393743  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4397327  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4400911  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4404495  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4405258  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4409176  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4412771  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4416355  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4419939  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4423523  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4427107  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4430691  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4434275  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4435041  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4438960  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4442555  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4446139  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4449723  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4453307  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4456891  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4460475  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4464059  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4464819  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4468738  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4472333  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4475917  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4479501  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4483085  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4486669  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4490253  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4493837  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4494600  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4498518  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4502113  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4505697  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4509281  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4512865  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4516449  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4520033  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4523617  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4524380  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4528298  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4531893  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4535477  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4539061  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4542645  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4546229  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4549813  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4553397  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4554163  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4558082  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4561677  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4565261  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4568845  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4572429  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4576013  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4579597  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4583181  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4583941  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4587860  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4591455  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4595039  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4598623  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4602207  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4605791  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4609375  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4612959  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4613722  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4617640  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4621235  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4624819  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4628403  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4631987  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4635571  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4639155  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4642739  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4643502  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4647420  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4651015  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4654599  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4658183  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4661767  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4665351  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4668935  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4672519  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4673285  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4677204  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4680799  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4684383  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4687967  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4691551  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4695135  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4698719  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4702303  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4703063  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4706982  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4710577  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4714161  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4717745  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4721329  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4724913  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4728497  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4732081  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4732844  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4736762  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4740357  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4743941  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4747525  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4751109  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4754693  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4758277  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4761861  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4762624  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4766542  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4770137  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4773721  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4777305  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4780889  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4784473  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4788057  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4791641  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4792407  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4796326  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4799921  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4803505  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4807089  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4810673  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4814257  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4817841  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4821425  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4822185  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4826104  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4829699  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4833283  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4836867  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4840451  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4844035  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4847619  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4851203  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4851966  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4855884  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4859479  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4863063  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4866647  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4870231  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4873815  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4877399  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    4880983  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    4881746  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4885664  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    4889259  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    4892843  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    4896427  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    4900011  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    4903595  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    4907179  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    4910763  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    4911529  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    4915448  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    4919043  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    4922627  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    4926211  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    4929795  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    4933379  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    4936963  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    4940547  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    4941307  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    4945226  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    4948821  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    4952405  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    4955989  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    4959573  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    4963157  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    4966741  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    4970325  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    4971088  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    4975006  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    4978601  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    4982185  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    4985769  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    4989353  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    4992937  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    4996521  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5000105  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5000868  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5004786  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5008381  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5011965  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5015549  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5019133  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5022717  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5026301  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5029885  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5030651  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5034570  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5038165  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5041749  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5045333  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5048917  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5052501  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5056085  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5059669  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5060429  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5064348  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5067943  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5071527  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5075111  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5078695  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5082279  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5085863  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5089447  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    5090210  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    5094128  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    5097723  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    5101307  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    5104891  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    5108475  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    5112059  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    5115643  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5119227  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5119990  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5123908  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5127503  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5131087  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5134671  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5138255  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5141839  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5145423  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5149007  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5149773  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5153692  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5157287  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5160871  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5164455  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5168039  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5171623  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5175207  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5178791  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5179551  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5183470  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5187065  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5190649  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5194233  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5197817  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5201401  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5204985  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5208569  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    5209332  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    5213250  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    5216845  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    5220429  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    5224013  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    5227597  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    5231181  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    5234765  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5238349  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5239112  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5243030  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5246625  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5250209  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5253793  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5257377  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5260961  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5264545  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5268129  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5268895  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5272814  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5276409  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5279993  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5283577  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5287161  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5290745  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5294329  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5297913  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5298673  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5302592  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5306187  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5309771  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5313355  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5316939  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5320523  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5324107  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5327691  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    5328454  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    5332372  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    5335967  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    5339551  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    5343135  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    5346719  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    5350303  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    5353887  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5357471  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5358234  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5362152  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5365747  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5369331  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5372915  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5376499  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5380083  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5383667  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5387251  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5388017  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5391936  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5395531  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5399115  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5402699  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5406283  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5409867  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5413451  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5417035  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5417795  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5421714  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5425309  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5428893  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5432477  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5436061  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5439645  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5443229  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5446813  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    5447576  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    5451494  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    5455089  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    5458673  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    5462257  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    5465841  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    5469425  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    5473009  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5476593  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5477356  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5481274  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5484869  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5488453  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5492037  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5495621  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5499205  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5502789  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5506373  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5507139  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5511058  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5514653  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5518237  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5521821  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5525405  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5528989  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5532573  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5536157  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5536917  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5540836  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5544431  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5548015  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5551599  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5555183  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5558767  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5562351  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5565935  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    5566698  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    5570616  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    5574211  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    5577795  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    5581379  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    5584963  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    5588547  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    5592131  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5595715  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5596478  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5600396  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5603991  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5607575  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5611159  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5614743  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5618327  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5621911  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5625495  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5626261  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5630180  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5633775  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5637359  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5640943  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5644527  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5648111  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5651695  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5655279  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5656039  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5659958  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5663553  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5667137  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5670721  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5674305  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5677889  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5681473  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5685057  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+    5685820  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 25  1
+    5689738  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,186  1
+    5693333  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 59  1
+    5696917  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,240  1
+    5700501  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 80  1
+    5704085  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,261  1
+    5707669  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,101  1
+    5711253  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,282  1
+    5714837  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,122  1
+    5715600  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5719518  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,184  1
+    5723113  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 57  1
+    5726697  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,238  1
+    5730281  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 78  1
+    5733865  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,259  1
+    5737449  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171, 99  1
+    5741033  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,280  1
+    5744617  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,120  1
+    5745383  $C141  $10  BPL         00  0F  FF  F6  nvUbdIZC  241, 31  1
+    5749302  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,195  1
+    5752897  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   45, 68  1
+    5756481  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC   76,249  1
+    5760065  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  108, 89  1
+    5763649  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  139,270  1
+    5767233  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  171,110  1
+    5770817  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  202,291  1
+    5774401  $C141  $10  BPL         00  0F  FF  F9  nvUbdIZC  234,131  1
+    5775161  $C13E  $AD  LDA         00  0F  FF  F6  nvUbdIZC  241, 24  1
+    5779080  $C773  $4A  LSR         20  04  04  F3  nvUbdIzc   13,187  1
+    5782675  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   45, 60  1
+    5786259  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC   76,241  1
+    5789843  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  108, 81  1
+    5793427  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  139,262  1
+    5797011  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  171,102  1
+    5800595  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  202,283  1
+    5804179  $C13E  $AD  LDA         00  0F  FF  F9  nvUbdIZC  234,123  1
+
+=== CPU RAM (2 KB) ===
+$0000  00 00 00 00 00 00 00 00 00 00 00 D3 CB 33 CC 00
+$0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0020  00 00 00 00 00 00 B0 18 0F FF 00 00 00 00 00 00
+$0030  00 00 00 00 00 00 00 00 00 00 00 2C 00 20 00 00
+$0040  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0050  00 00 00 00 00 00 00 00 00 00 00 00 00 01 01 FF
+$0060  04 00 00 00 00 00 00 00 00 00 FE FE FE FE 03 FF
+$0070  FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00
+$0080  00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$00F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0100  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0110  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0120  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0130  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0150  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0160  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0170  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0180  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0190  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$01F0  00 00 41 D4 5E C5 00 27 41 C1 4E C0 2A EB A1 C1
+$0200  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0210  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0220  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0230  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0240  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0250  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0260  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0270  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0280  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0290  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$02F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0300  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0310  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0320  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0330  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0340  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0350  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0360  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0370  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0380  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0390  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$03C0  00 00 00 00 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F
+$03D0  0F 0F 0F 0F 0F 0F 0F 0F 00 0F 0F 0F 00 0F 0F 0F
+$03E0  00 0F 0F 0F 00 01 00 00 00 4D 00 FF FF FF FF 00
+$03F0  00 00 00 FF FF FF FF 00 00 00 00 00 00 00 00 00
+$0400  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0410  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0420  00 00 00 FF FF FF FF 00 00 00 00 00 00 00 00 00
+$0430  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0440  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0450  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0460  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0470  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0480  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0490  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$04F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0500  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0510  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0520  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0530  00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00
+$0540  01 00 00 01 01 00 00 00 00 00 00 00 00 00 00 00
+$0550  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0560  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0570  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0580  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0590  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$05F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0600  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0610  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0620  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0630  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0640  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0650  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0660  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0670  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0680  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0690  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06A0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06B0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06C0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06D0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06E0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$06F0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+$0700  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0710  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0720  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0730  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0740  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0750  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0760  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0770  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0780  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$0790  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$07A0  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$07B0  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$07C0  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$07D0  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$07E0  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+$07F0  F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0
+
+=== PPU PALETTE ===
+$3F00  0F 0F 0F 0F 00 0F 0F 0F 00 0F 0F 0F 00 0F 0F 0F
+$3F10  00 0F 0F 0F 00 0F 0F 0F 00 0F 0F 0F 00 0F 0F 0F
+
+=== CHECKSUMS ===
+CPU RAM CRC32: 8F71D41C
+PRG RAM CRC32: D8F49994
+Nametable CRC32: C71C0011
+OAM CRC32: F167BBC8
+
+END OF LOG

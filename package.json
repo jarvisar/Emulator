@@ -1,0 +1,9 @@
+{
+  "name": "nes-emulator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "python serve.py --open"
+  }
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111114">
+    <title>8-Bit Control Deck</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="deck-header">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <div>
+            <p class="eyebrow">NTSC cartridge workstation</p>
+            <h1>8-Bit <i>Control Deck</i></h1>
+          </div>
+        </div>
+
+        <div class="machine-status" aria-live="polite">
+          <div class="status-cell power-cell">
+            <span class="status-label">Power</span>
+            <span class="status-value"><b id="status-dot" class="status-dot"></b>Online</span>
+          </div>
+          <div class="status-cell cart-cell">
+            <span class="status-label">Cartridge</span>
+            <span id="status" class="status-value">No cartridge inserted</span>
+          </div>
+          <div class="status-cell">
+            <span class="status-label">Video sync</span>
+            <span id="fps" class="status-value fps">0 FPS</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="redline" aria-hidden="true"><span></span></div>
+
+      <section class="workspace">
+        <aside class="library-panel">
+          <div class="panel-cap">
+            <span class="panel-code">CV-01</span>
+            <span>Cartridge Vault</span>
+            <span id="game-count">0 carts</span>
+          </div>
+
+          <div class="search-row">
+            <label class="search-box">
+              <span aria-hidden="true">SEARCH/</span>
+              <input id="search" type="search" placeholder="Title" autocomplete="off">
+            </label>
+            <button id="random-game" class="square-button" type="button" title="Load a random cartridge">RND</button>
+          </div>
+
+          <div class="library-tabs" role="tablist" aria-label="Library view">
+            <button type="button" class="library-tab active" data-library-filter="all">All</button>
+            <button type="button" class="library-tab" data-library-filter="favorites">Favorites</button>
+            <button type="button" class="library-tab" data-library-filter="recent">Recent</button>
+          </div>
+
+          <div id="rom-list" class="rom-list" role="listbox" aria-label="ROM library"></div>
+
+          <div class="vault-footer">
+            <span id="favorite-count">0 favorites</span>
+            <label class="file-button">
+              Insert .nes
+              <input id="file-input" type="file" accept=".nes,application/octet-stream">
+            </label>
+          </div>
+        </aside>
+
+        <section class="console-panel">
+          <div class="console-label-strip">
+            <div>
+              <span class="micro-label">Now playing</span>
+              <strong id="now-playing">Awaiting cartridge</strong>
+            </div>
+            <div class="console-specs">
+              <span><b>REGION</b> NTSC</span>
+              <span><b>MAPPER</b> <i id="mapper-readout">--</i></span>
+              <span><b>SAVE RAM</b> <i id="save-readout">--</i></span>
+            </div>
+          </div>
+
+          <div id="screen-frame" class="screen-frame" data-display="pixel">
+            <div class="bezel-rail">
+              <span>VIDEO MONITOR / 4:3 / 256 x 240</span>
+              <span id="display-label">PIXEL DIRECT</span>
+            </div>
+            <div class="screen-window">
+              <canvas id="screen" width="256" height="240" aria-label="NES video output"></canvas>
+              <div class="screen-fx" aria-hidden="true"></div>
+              <div id="screen-message" class="screen-message">
+                <span class="insert-icon" aria-hidden="true"></span>
+                <strong>Insert cartridge</strong>
+                <span>Select a title from the vault or load an iNES file.</span>
+              </div>
+            </div>
+            <div class="bezel-footer">
+              <span class="vent-bank" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+              <span>MONITOR UNIT DM-08</span>
+              <span class="bezel-led"></span>
+            </div>
+          </div>
+
+          <div class="deck-controls">
+            <div class="transport-controls">
+              <button id="pause" class="deck-button primary" type="button" disabled><span>II</span><b>Pause</b></button>
+              <button id="reset" class="deck-button" type="button" disabled><span>RST</span><b>Reset</b></button>
+              <button id="mute" class="deck-button" type="button"><span>AUD</span><b>Sound on</b></button>
+            </div>
+            <div class="utility-controls">
+              <button id="display-mode" class="deck-button" type="button"><span>DSP</span><b>Pixel</b></button>
+              <button id="screenshot" class="deck-button" type="button"><span>CAP</span><b>Capture</b></button>
+              <button id="diagnostics" class="deck-button" type="button" disabled><span>LOG</span><b>Dump log</b></button>
+              <button id="fullscreen" class="deck-button accent" type="button"><span>MAX</span><b>Fullscreen</b></button>
+            </div>
+          </div>
+
+          <div class="operator-bay">
+            <figure class="controller-guide">
+              <div class="controller-port">
+                <span class="port-light"></span>
+                <span>Player 01 / Port linked</span>
+              </div>
+              <div class="controller-map">
+                <img src="assets/Nes_controller.svg" alt="Classic NES controller with keyboard mappings">
+                <span class="control-callout callout-dpad"><kbd>Arrow Keys</kbd></span>
+                <span class="control-callout callout-select"><kbd>Shift</kbd></span>
+                <span class="control-callout callout-start"><kbd>Enter</kbd></span>
+                <span class="control-callout callout-b"><kbd>X</kbd></span>
+                <span class="control-callout callout-a"><kbd>Z</kbd></span>
+              </div>
+              <figcaption>
+                <strong>Player one controller map</strong>
+                <span>Keyboard input is shown on the corresponding hardware control.</span>
+              </figcaption>
+            </figure>
+            <div class="quick-reference">
+              <span class="micro-label">Deck shortcuts</span>
+              <p><kbd>Space</kbd> Pause <kbd>R</kbd> Reset <kbd>M</kbd> Mute <kbd>F</kbd> Fullscreen</p>
+            </div>
+          </div>
+
+          <figure class="hardware-reference">
+            <img src="assets/NES-Console-Set.png" alt="Nintendo Entertainment System console and controller">
+            <figcaption>
+              <span class="micro-label">Hardware reference / NES-001</span>
+              <strong>Home video computer system</strong>
+              <span>Front-loading cartridge deck · dual controller bus · RF / composite output</span>
+            </figcaption>
+            <span class="hardware-stamp" aria-hidden="true">1985<br>NTSC</span>
+          </figure>
+        </section>
+      </section>
+
+      <footer class="app-footer">
+        <span>Local system / no telemetry</span>
+        <span>710 cartridge archive</span>
+        <span>CPU 2A03 / PPU 2C02</span>
+      </footer>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
